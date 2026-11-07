@@ -1,0 +1,21 @@
+# Fichiers générés automatiquement (à ne pas partager)
+__pycache__/
+*.pyc
+.DS_Store
+compression.txt
+decompression.txt
+
+# Gros fichiers de l'étude expérimentale (téléchargés ou générés)
+code/experiences/textes/
+code/experiences/corpus/
+
+# Fichiers temporaires de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
