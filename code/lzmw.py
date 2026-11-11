@@ -1,6 +1,4 @@
 import math
-import sys
-import os
 
 from question_5_6_7 import bits
 
@@ -11,7 +9,7 @@ def decompresser(fichier_compresse, fichier_sortie):
         P = b''
         b = f_i.read(1)[0]
         lire = bits.LecteurBits(f_i)
-        while(True):
+        while True:
             w = min(b, math.ceil(math.log2(len(D))))
             c = lire.lire_code(w)
             if c is None:
