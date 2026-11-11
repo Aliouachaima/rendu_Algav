@@ -4,6 +4,8 @@ __pycache__/
 .DS_Store
 compression.txt
 decompression.txt
+.vscode/
+code/test_sortie.txt
 
 # Gros fichiers de l'étude expérimentale (téléchargés ou générés)
 code/experiences/textes/
