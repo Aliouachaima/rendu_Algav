@@ -12,7 +12,7 @@ def main():
     fichier_entree = sys.argv[1]
     fichier_sortie = sys.argv[2]
 
-    debut = time.time()
+    debut = time.perf_counter()
     
     decompresser(fichier_entree, fichier_sortie)
     
